@@ -1,3 +1,6 @@
+//This file has an implicit dependency on lodash. 
+//i.e it assumes _ to be available before this code executes
+
 function component() {
   var element = document.createElement('div');
 
