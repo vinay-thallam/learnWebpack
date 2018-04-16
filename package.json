@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/vinay-thallam/learnWebpack/issues"
   },
-  "homepage": "https://github.com/vinay-thallam/learnWebpack#readme"
+  "homepage": "https://github.com/vinay-thallam/learnWebpack#readme",
+  "devDependencies": {
+    "webpack": "^4.5.0",
+    "webpack-cli": "^2.0.14"
+  }
 }
