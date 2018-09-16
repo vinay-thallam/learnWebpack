@@ -9,7 +9,7 @@ module.exports = {
   output: {
     filename: 'main.js',
     path: path.resolve(__dirname, 'dist'),
-    publicPath: ASSET_PATH
+    publicPath: ASSET_PATH //Essentially, every file emitted to your output.path directory will be referenced from the output.publicPath location.
   },
   plugins: [
     extractTextPlugin,
