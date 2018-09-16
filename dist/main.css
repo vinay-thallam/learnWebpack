@@ -1,4 +1,17 @@
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url(0919bd3003ac9350a808c2b4a150ce16.eot);
+    src: url(0919bd3003ac9350a808c2b4a150ce16.eot?#iefix) format('embedded-opentype'),
+         url(e9a3b5b4d677ae8d116fee66522ac16d.woff) format('woff'),
+         url(9417a07a034b87a5ee607c18ce57796b.ttf) format('truetype'),
+         url(a72cc9dfde0e4f04cb7b4568762a3193.svg#proxima_novalight) format('svg');
+    font-weight: 300;
+    font-style: normal;
+
+}
+
 .red {
 	color : red;
-	background: url(7f73dbf68559b65434659221263bcc1c.jpg)
+	background: url(7f73dbf68559b65434659221263bcc1c.jpg);
+	font-family: 'Proxima Nova';
 }
