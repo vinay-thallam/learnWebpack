@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/vinay-thallam/learnWebpack#readme",
   "devDependencies": {
+    "css-loader": "^1.0.0",
     "webpack": "^4.5.0",
     "webpack-cli": "^2.0.14"
   },
