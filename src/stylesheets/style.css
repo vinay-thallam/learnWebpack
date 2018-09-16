@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('fonts/proxima_nova_light/proximanova-light-webfont.eot');
+    src: url('fonts/proxima_nova_light/proximanova-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/proxima_nova_light/proximanova-light-webfont.woff') format('woff'),
+         url('fonts/proxima_nova_light/proximanova-light-webfont.ttf') format('truetype'),
+         url('fonts/proxima_nova_light/proximanova-light-webfont.svg#proxima_novalight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+.red {
+	color : red;
+	background: url('images/icon.jpg');
+	font-family: 'Proxima Nova';
+}
