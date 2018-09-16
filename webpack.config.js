@@ -1,9 +1,9 @@
 var webpack = require('webpack');
 var ExtractTextPlugin = require('extract-text-webpack-plugin')
 const path = require('path')
-const ASSET_PATH = process.env.ASSET_PATH || '';
+const ASSET_PATH = process.env.ASSET_PATH || '../';
 
-var extractTextPlugin = new ExtractTextPlugin({filename: 'main.css'})
+var extractTextPlugin = new ExtractTextPlugin({filename: 'stylesheets/main.css'})
 module.exports = {
   entry: './src/index.js',
   output: {
